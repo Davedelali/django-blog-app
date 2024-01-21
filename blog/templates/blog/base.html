@@ -1,5 +1,5 @@
 {% load static %}
-<link rel="stylesheet" href="{{ STATIC_URL }}blog.css">
+<link rel='stylesheet' href="{% static 'css/blog.css' %}">
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,7 +10,13 @@
  {% block content %}
  {% endblock %}
  </div>
+
  <div id="sidebar">
+       Home
+       Blog
+ </div>
+      
  </div>
 </body>
 </html>
+ 
